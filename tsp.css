@@ -1,0 +1,7 @@
+div#grid { position:absolute;width:700px;height:400px;border:thin solid black;overflow:scroll; }
+div#tileSheet { position:absolute;width:300px;height:400px;left:715px;border:thin solid black;overflow:scroll }
+textarea#resultsField { position:absolute;width:695px;height:120px;top:480px;border:thin solid black;overflow:scroll }
+input#tileWidth { width:32px; }
+input#tileHeight { width:32px; }
+input#Columns {width:32px; }
+input#Rows {width:32px; }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta  name="Description" content="TileSetPainter, An HTML5 tileset painting and 2D Array generation application. Draw out scenes, and get 2D Arrays of your scenes for programming."/>
+		<meta name="keywords" content="TileSetPainter, tabageos, HTML5, tilesheet, tileset, spritsheet, 2D Arrays for games, tile based programming"/>
+		<title>TileSetPainter</title>
+		<link rel="stylesheet" href="tsp.css" />
+		<script type="text/javascript" src="tbgs.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<table id="fileMenu">
+				<tbody>
+					<tr>
+						<td>
+						<input id="fileToLoad" type="file" title="Tile sheet file select" />
+						<input id="backgroundImg" type="file" title="Background file select" />
+						<select name="options" id="options">
+							<option value="get y/x array">get y/x Array</option>
+							<option value="get x/y array">get x/y Array</option>
+							<option value="clear map">clear map</option>
+							<option value="draw from y/x Array">draw from y/x Array</option>
+						</select>
+						</td>
+					</tr>
+					<tr> 
+						<td>
+						tWidth: <input id="tileWidth" type="text" value="16" title="tileWidth" />
+						tHeight: <input id="tileHeight" type="text" value="16" title="tileHeight" />
+						Columns: <input id="Columns" type="text" value="80" title="Columns, horizontal" />
+						Rows: <input id="Rows" type="text" value="17" title="Rows, vertical" />
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div id="grid"> </div>
+			<div id="tileSheet"> </div>
+			<textarea id="resultsField"> </textarea>
+			<table style="position:absolute;top:470px;left:720px">
+				<tbody>
+					<tr>
+						<td>
+							<input id="animationName" type="text" value="animationName" title="create/choose animation name then press changeAni" />
+							<input id="changeAni" type="button" style="width:75px" value="changeAni" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div id="animationDisplay" style="width:256px;height:128px;border:thin solid black;overflow:scroll" 
+								 title="This corner is for making animations from your tile sheet. &#13 Use the animationName box to create/change animations. &#13 Use getAnis to get the animationSpecs Object of your animations. &#13 the animation shown is running at .5 throttle; .animate(.5)"></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input id="clearAni" type="button" style="width:75px" value="clearAni" />
+							<input id="getAni" type="button" value="getAnis" title="get the animationSpecs Object of all animations" />
+							<input id="addFrame" type="button" value="+" style="width:50px" title="add a frame" />
+							<input id="removeFrame" type="button" value="-" style="width:50px" title="remove a frame from the end" />
+						</td>
+						
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+	<script type="text/javascript" src="TileSetPainter.js">  </script>
+</html>
