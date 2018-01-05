@@ -1,5 +1,5 @@
 /*
-* Tadsters Basic Game Objects, tabageos, version 2.0.  // CopyRight 2017 (t)ad.   actiontad.com/basicGameObjects
+* Tadsters Basic Game Objects, tabageos, version 2.0.  // CopyRight 2018 (t)ad.   actiontad.com/basicGameObjects
 *  MoverPoint, Rectangle, Event, EventDispatcher, CanvasObject, CanvasAnimation, CanvasObjectContainer, ScreenSkeleton
 *  Mover, TravelerSkeleton, Traveler, BlittedTraveler, WDTraveler, RotatingTraveler, RotatingShooter
 *  AnimatedBlittedTileMover, SceneryThrower, SceneryObject. TimeKeeper, MouseController, IntervalController
