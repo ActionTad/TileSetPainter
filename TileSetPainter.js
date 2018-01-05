@@ -9,8 +9,8 @@
 *   Use the animation corner tp create and get animationSpecs Objects.
 *   The Objects are set up and ready to be used with Classes like tabageos.CanvasAnimation and AnimatedBlittedTileMover.
 * 
-*	You are free to use this application, but not to rehost it on your website.
-*	A ready offline version is included in the full tabageos game code library download; here.
+*	You are free to use this application, so long as this notice remains intact.
+*	
 *
 */
 (function() {
